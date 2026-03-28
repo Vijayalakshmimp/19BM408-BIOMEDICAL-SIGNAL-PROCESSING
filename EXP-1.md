@@ -46,6 +46,7 @@ x(n)=a^n sin⁡(ωn)
 6.	Stop the program
 
 # MATLAB CODE:
+'''
 % GENERATION OF STANDARD DISCRETE-TIME SIGNALS
 
 clc;
@@ -104,7 +105,7 @@ stem(n1, x6, 'filled');
 title('Damped Sinusoidal Signal');
 xlabel('n'); ylabel('Amplitude');
 grid on;
-
+'''
 
 # OUTPUT GRAPH:
 1. Unit Impulse Signal
